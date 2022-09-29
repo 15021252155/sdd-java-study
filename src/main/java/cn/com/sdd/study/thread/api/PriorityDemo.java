@@ -9,7 +9,7 @@ package cn.com.sdd.study.thread.api;
  **/
 public class PriorityDemo {
     /*
-    ava中Thread对象有一个优先级的概念，优先级被划分10个级别，创建线程的时候，如果没有指定优先级，默认是5。主线程的优先级也是5。优先级高的线程会比优先级低的线程获得更多的运行机会。
+    java中Thread对象有一个优先级的概念，优先级被划分10个级别，创建线程的时候，如果没有指定优先级，默认是5。主线程的优先级也是5。优先级高的线程会比优先级低的线程获得更多的运行机会。
 
     Thread类定义了3个整形常量MAX_PRIORITY、NORM_PRIORITY、MIN_PRIORITY分别用于表示支持的最高优先级，正常优先级和最低优先级。
 

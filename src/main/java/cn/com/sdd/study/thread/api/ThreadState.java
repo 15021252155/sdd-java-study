@@ -61,8 +61,6 @@ public class ThreadState {
 
         线程终止。
 
-
-
         这些状态中NEW状态是开始，TERMINATED时销毁，在整个线程对象的运行过程中，这个两个状态只能出现一次。其他任何状态都可以出现多次，彼此之间可以相互转换。
 
         Tips：
@@ -99,7 +97,6 @@ public class ThreadState {
                 i++;
             }
         }
-
     }
 
     /**

@@ -13,7 +13,8 @@ public class MultiRunDemo {
      * private Runnable target;
      * ....
      *
-     * @Override public void run() {
+     * @Override
+     * public void run() {
      * if (target != null) {
      * target.run();
      * }

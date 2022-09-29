@@ -41,7 +41,6 @@ public class TestRunnable implements Runnable {
         Thread thread = new Thread(runnable);
         //thread.setDaemon(true);//设置守护线程
         thread.start(); //开始执行分进程
-
     }
 
     @Override
@@ -49,13 +48,11 @@ public class TestRunnable implements Runnable {
         try {
             System.out.println("run start....");
              SleepUtils.second(1);//守护线程阻塞1秒后运行
-            File f = new File("D:\\log\\file\\daemon.txt");
-            FileOutputStream os = new FileOutputStream(f, true);
-            os.write("daemon-sdd".getBytes());
+            //File f = new File("D:\\log\\file\\daemon.txt");
+            //FileOutputStream os = new FileOutputStream(f, true);
+           // os.write("daemon-sdd".getBytes());
+            System.out.println("do something...");
             System.out.println("write end....");
-        } catch (IOException e1) {
-            e1.printStackTrace();
-            System.out.println(e1.getMessage());
         } catch (Exception e2) {
             e2.printStackTrace();
             System.out.println(e2.getMessage());
